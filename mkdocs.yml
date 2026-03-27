@@ -1,0 +1,32 @@
+site_name: Quantum Information & Computation Lab
+site_description: 專注於量子導引、量子資源理論與古典陰影的實驗室
+site_author: Lab Admin
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+# 1. 設置右上角的語言切換選單
+extra:
+  alternate:
+    - name: 繁體中文
+      link: /
+      lang: zh
+    - name: English
+      link: /en/
+      lang: en
+
+# 2. 啟用內建搜尋與多國語言套件
+plugins:
+  - search
+  - i18n:
+      languages:
+        - locale: zh
+          name: 繁體中文
+          default: true
+        - locale: en
+          name: English

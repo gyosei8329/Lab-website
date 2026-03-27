@@ -1,0 +1,35 @@
+name: Deploy MkDocs to GitHub Pages
+
+# 設定觸發條件：當有程式碼 push 到 main 分支時執行
+on:
+  push:
+    branches:
+      - main
+      - master
+
+# 給予 GitHub Actions 寫入的權限（用來把編譯好的網頁推送到 gh-pages 分支）
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Set up Python
+        run: uv python install 3.12
+
+      - name: Install dependencies
+        # 根據你的 uv.lock 自動安裝 mkdocs 與所有套件
+        run: uv sync
+
+      - name: Build and Deploy to GitHub Pages
+        # 使用 MkDocs 內建的指令進行部署
+        run: uv run mkdocs gh-deploy --force
