@@ -8,4 +8,3 @@ wheels/
 
 # Virtual environments
 .venv
->>>>>>> 0bc2fad (chore: setup github actions for mkdocs deployment)

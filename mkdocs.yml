@@ -4,13 +4,39 @@ site_author: Lab Admin
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  font:
+    text: Noto Sans TC
+    code: JetBrains Mono
+
   features:
     - navigation.tabs
     - navigation.top
     - search.suggest
     - search.highlight
+    - navigation.tracking
+    - toc.integrate
+    - header.autohide
 
-# 1. 設置右上角的語言切換選單
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: change to dark theme
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: change to light theme
+
 extra:
   alternate:
     - name: 繁體中文
@@ -20,7 +46,6 @@ extra:
       link: /en/
       lang: en
 
-# 2. 啟用內建搜尋與多國語言套件
 plugins:
   - search
   - i18n:
@@ -30,3 +55,41 @@ plugins:
           default: true
         - locale: en
           name: English
+          # 【已補齊】告訴系統中文選單切換到英文時，要變成什麼字
+          nav_translations:
+            首頁: Home
+            團隊成員: Team
+            現任成員: Current Members
+            歷屆系友: Alumni
+            研究介紹: Research
+            論文發表: Publications
+            聯絡我們: Contact Us
+  - bibtex:
+      bib_file: "docs/publications.bib"
+
+nav:
+  - 首頁: index.md
+  - 團隊成員:
+      - 現任成員: member.md
+      - 歷屆系友: alumni.md
+  - 研究介紹: research.md
+  - 論文發表: publications.md
+  - 聯絡我們: contact.md
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - footnotes
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+  - stylesheets/custom.css
+
+extra_javascript:
+  - javascripts/custom.js

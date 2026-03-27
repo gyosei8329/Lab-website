@@ -1,0 +1,19 @@
+/* 1. 讓背景變透明，並加上漸變動畫 */
+body.transparent-header-active .md-header,
+body.transparent-header-active .md-tabs {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* 2. 精準狙擊：只讓大標題、頁籤、以及上方的圖示按鈕變白色 */
+body.transparent-header-active .md-header__topic,
+body.transparent-header-active .md-tabs__link,
+body.transparent-header-active .md-header__button {
+    color: white !important;
+}
+
+/* 3. 解除搜尋隱身術：強制讓搜尋框裡的打字顏色維持深色 */
+body.transparent-header-active .md-search__input {
+    color: var(--md-default-fg-color) !important;
+}
