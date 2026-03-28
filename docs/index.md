@@ -28,7 +28,7 @@ hide:
     探索量子物理的邊界。我們專注於量子導引、量子資源理論的前沿應用。
   </p>
   
-  <a href="research/" class="md-button md-button--primary" style="background-color: white; color: #43baff; font-weight: bold; border: none; margin: 0.5rem;">探索研究領域</a>
+  <a href="research/" class="md-button md-button--primary" style="background-color: white; color: #7de5ff; font-weight: bold; border: none; margin: 0.5rem;">探索研究領域</a>
   <a href="publications/" class="md-button" style="color: white; border-color: white; margin: 0.5rem;">最新論文發表</a>
 </div>
 

@@ -17,7 +17,7 @@ hide:
     <br>
     __實驗室主持人 / 教授__
 
-    **研究專長：** 量子資訊、量子基礎論、量子關聯性
+    * **研究專長：** 量子資訊、量子基礎論、量子關聯性
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:huan.yu@ntnu.edu.tw) · [:material-office-building: 理學院A1??室](#) · [:material-file-document-outline: Google Scholar](https://scholar.google.com/citations?user=KnXsXZQAAAAJ&hl=zh-TW) · [:material-linkedin: LinkedIn](https://orcid.org/0000-0003-1909-6703)
@@ -39,7 +39,7 @@ hide:
     <br>
     __博士後研究員__
 
-    **研究專長：** ?
+    * **研究專長：** ?
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
@@ -61,7 +61,9 @@ hide:
     <br>
     __博士生__
 
-    **研究專長：** 半正定規劃 (SDP) 求解器最佳化、機器學習
+    * **研究專長：** 半正定規劃 (SDP) 求解器最佳化、機器學習
+
+    * **研究題目：** ?
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
@@ -83,7 +85,7 @@ hide:
     <br>
     __碩士生__
 
-    **研究專長：** ?
+    * **研究題目：** ?
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
@@ -100,7 +102,8 @@ hide:
     <br>
     __碩士生__
     
-    **研究專長：** 生物量子、non-Markovian、circuit experiment
+    * **研究專長：** 生物量子、non-Markovian、circuit experiment
+    * **研究題目：** ?
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:student@example.edu.tw) · [:material-linkedin: LinkedIn](#)
@@ -117,7 +120,7 @@ hide:
     <br>
     __碩士生__
 
-    **研究專長：** quantum ellipsoid
+    * **研究題目：** quantum ellipsoid
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
@@ -134,7 +137,7 @@ hide:
     <br>
     __碩士生__
 
-    **研究專長：** ?
+    * **研究題目：** ?
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
@@ -151,7 +154,7 @@ hide:
     <br>
     __碩士生__
 
-    **研究專長：** non-Hermision
+    * **研究題目：** non-Hermision
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
@@ -168,7 +171,7 @@ hide:
     <br>
     __碩士生__
 
-    **研究專長：** ??
+    * **研究題目：** ?
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
@@ -190,7 +193,7 @@ hide:
     <br>
     __學士生__
 
-    **研究題目：** 量子通道刻劃
+    * **研究題目：** 量子通道刻劃
     
     </div>
     </div>
@@ -204,9 +207,8 @@ hide:
     <br>
     __學士生__
 
-    **研究題目：** ?
-
-    **研究專長：** quantum purification、ICO、Coherent Control
+    * **研究專長：** quantum purification、ICO、Coherent Control
+    * **研究題目：** ?
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
@@ -221,7 +223,7 @@ hide:
     <br>
     __學士生__
 
-    **研究題目：** 基礎文獻回顧
+    * **研究題目：** 基礎文獻回顧
     
     </div>
     </div>
@@ -235,7 +237,7 @@ hide:
     <br>
     __學士生__
 
-    **研究題目：** 我是菜雞
+    * **研究題目：** 我是菜雞
 
     <div class="member-resources" markdown="1">
     [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](https://github.com/gyosei8329/)
@@ -250,7 +252,7 @@ hide:
     <br>
     __學士生__
 
-    **研究題目：** ??
+    * **研究題目：** ??
     
     </div>
     </div>
