@@ -24,10 +24,18 @@ theme:
     - toc.integrate
 
   palette:
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      primary: light blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: light blue
-      accent: deep purple
+      accent: blue
       toggle:
         icon: material/weather-night
         name: change to dark theme
@@ -35,9 +43,9 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: indigo
-      accent: deep purple
+      accent: blue
       toggle:
-        icon: material/weather-sunny
+        icon: material/brightness-auto
         name: change to light theme
 
 extra:
