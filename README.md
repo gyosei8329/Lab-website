@@ -1,3 +1,3 @@
 # website
 
-Open the website by ![web](https://gyosei8329.github.io/Lab-website/)
+Open the website by <https://gyosei8329.github.io/Lab-website/>

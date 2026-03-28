@@ -19,7 +19,7 @@ hide:
   margin-right: -50vw;
   margin-top: -9rem;
   padding-top: 6rem;
-  background: linear-gradient(rgba(100, 224, 255, 0.8), rgba(165, 243, 255, 0.8)), url('assets/background.jpg') center/cover;
+  background: linear-gradient(rgba(100, 224, 255, 0.8), rgba(165, 243, 255, 0.8)), url('assets/images/background.jpg') center/cover;
   color: white;
   box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 ">

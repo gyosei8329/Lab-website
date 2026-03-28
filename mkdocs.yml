@@ -4,21 +4,23 @@ site_author: Lab Admin
 
 theme:
   name: material
-  logo: assets/logo.png
-  favicon: assets/logo.png
+  logo: assets/images/logo.png
+  favicon: assets/images/logo.png
 
   font:
     text: Noto Sans TC
     code: JetBrains Mono
 
   features:
+    - content.tabs.link
+    - content.tabs.reveal
+    - header.autohide
     - navigation.tabs
     - navigation.top
+    - navigation.tracking
     - search.suggest
     - search.highlight
-    - navigation.tracking
     - toc.integrate
-    - header.autohide
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -55,7 +57,6 @@ plugins:
           default: true
         - locale: en
           name: English
-          # 【已補齊】告訴系統中文選單切換到英文時，要變成什麼字
           nav_translations:
             首頁: Home
             團隊成員: Team
@@ -79,17 +80,21 @@ nav:
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
+  - attr_list
   - pymdownx.superfences
   - pymdownx.details
-  - attr_list
   - md_in_html
   - footnotes
   - def_list
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
-  - stylesheets/custom.css
+  - assets/stylesheets/home.css
+  - assets/stylesheets/members.css
 
 extra_javascript:
-  - javascripts/custom.js
+  - assets/javascripts/custom.js

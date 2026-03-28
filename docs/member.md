@@ -1,61 +1,236 @@
 ---
 title: 目前成員
+hide:
+  - navigation
 ---
 
 # 團隊成員
 
-## 指導教授 (Principal Investigator)
+=== "指導教授 (Profeser)"
 
-  <div class="grid cards" markdown>
+    <div class="team-grid pi-card">
+    <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/prof.jpg" alt="Dr. Quantum">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **Dr. 量子 (Dr. Quantum)**
+    <br>
+    __實驗室主持人 / 教授__
 
-- :material-account-tie: __Dr. 量子 (Dr. Quantum)__
+    **研究專長：** 量子資訊理論、量子導引 (Quantum Steering)、量子資源理論
 
-      ---
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:pi@example.edu.tw) · [:material-office-building: 物理大樓 501 室](#) · [:material-file-document-outline: Google Scholar](#)
+    </div>
+    </div>
+    </div>
+    </div>
 
-      __實驗室主持人 / 教授__
+=== "博士後研究員(Postdoctor)"
 
-      研究專長：量子資訊理論、量子導引 (Quantum Steering)、量子資源理論
+    <div class="team-grid">
+    <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **王大明 (Da-Ming Wang)**
+    <br>
+    __博士後研究員__
 
-  - :material-email: <pi@example.edu.tw>
-  - :material-office-building: 物理與資訊大樓 501 室
-  - :material-file-document-outline: [Google Scholar 個人主頁](#)
+    **研究專長：** 半正定規劃 (SDP) 求解器最佳化、古典陰影的強健性計算
 
-  </div>
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
+    </div>
+    </div>
+    </div>
+    <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/doc.jpg" alt="量子君">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **量子君 (Quantum Student)**
+    <br>
+    __博士候選人__
+    
+    **研究專長：** 量子非區域性、量子隱形傳態資源化研究
 
-## 博士後研究員與博士生 (Postdocs & Ph.D. Students)
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:student@example.edu.tw) · [:material-linkedin: LinkedIn](#)
+    </div>
+    </div>
+    </div>
+        <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **王大明 (Da-Ming Wang)**
+    <br>
+    __博士後研究員__
 
-  <div class="grid cards" markdown>
+    **研究專長：** 半正定規劃 (SDP) 求解器最佳化、古典陰影的強健性計算
 
-- :material-account-circle: __王大明 (Da-Ming Wang)__
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
+    </div>
+    </div>
+    </div>
+    </div>
 
-      ---
+=== "博士生(Doctor)"
 
-      __博士後研究員__
+    <div class="team-grid">
+    <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **王大明 (Da-Ming Wang)**
+    <br>
+    __博士後研究員__
 
-      研究專長：半定規劃 (SDP) 求解器最佳化、古典陰影 (Classical Shadows) 的強健性計算、Python 數值模擬
+    **研究專長：** 半正定規劃 (SDP) 求解器最佳化、古典陰影的強健性計算
 
-  - :material-email: <daming@example.edu.tw>
-  - :material-github: [GitHub Profile](#)
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
+    </div>
+    </div>
+    </div>
+    <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/doc.jpg" alt="量子君">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **量子君 (Quantum Student)**
+    <br>
+    __博士候選人__
+    
+    **研究專長：** 量子非區域性、量子隱形傳態資源化研究
 
-- :material-account-circle: __李小華 (Xiao-Hua Li)__
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:student@example.edu.tw) · [:material-linkedin: LinkedIn](#)
+    </div>
+    </div>
+    </div>
+        <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **王大明 (Da-Ming Wang)**
+    <br>
+    __博士後研究員__
 
-      ---
+    **研究專長：** 半正定規劃 (SDP) 求解器最佳化、古典陰影的強健性計算
 
-      __博士候選人__
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
+    </div>
+    </div>
+    </div>
+    </div>
 
-      研究專長：光電材料與元件分析、F8T2 非等向性研究、鈣鈦礦發光二極體 (Perovskite LEDs) 應用
+=== "碩士生(Master)"
 
-  - :material-email: <xiaohua@example.edu.tw>
-  - :material-linkedin: [LinkedIn Profile](#)
+    <div class="team-grid">
+    <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **王大明 (Da-Ming Wang)**
+    <br>
+    __博士後研究員__
 
-  </div>
+    **研究專長：** 半正定規劃 (SDP) 求解器最佳化、古典陰影的強健性計算
 
-## 碩士班與專題生 (Master & Undergraduate Students)
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
+    </div>
+    </div>
+    </div>
+    <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/doc.jpg" alt="量子君">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **量子君 (Quantum Student)**
+    <br>
+    __博士候選人__
+    
+    **研究專長：** 量子非區域性、量子隱形傳態資源化研究
 
-  <div class="grid cards" markdown>
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:student@example.edu.tw) · [:material-linkedin: LinkedIn](#)
+    </div>
+    </div>
+    </div>
+        <div class="member-card">
+    <div class="member-photo">
+    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    </div>
+    <div class="member-info" markdown="1">
+    
+    **王大明 (Da-Ming Wang)**
+    <br>
+    __博士後研究員__
 
-- :material-account: __陳小明__ (碩二) - 研究題目：CsPbI3 量子點與電洞傳輸層應用分析
-- :material-account: __林小美__ (碩一) - 研究題目：量子計算演算法開發與驗證
-- :material-account: __張大山__ (專題生) - 實驗室網站維護與基礎文獻回顧
+    **研究專長：** 半正定規劃 (SDP) 求解器最佳化、古典陰影的強健性計算
 
-  </div>
+    <div class="member-resources" markdown="1">
+    [:material-email: Email](mailto:daming@example.edu.tw) · [:material-github: GitHub](#)
+    </div>
+    </div>
+    </div>
+    </div>
+
+=== "專題生(Undergrads)"
+
+    <div class="team-grid">
+    <div class="member-card">
+    <div class="placeholder-icon">:material-account:</div>
+    <div class="member-info" markdown="1">
+    
+    **林小美**
+    <br>
+    __碩士班一年級__
+
+    **研究題目：** 量子計算演算法開發與驗證
+    
+    </div>
+    </div>
+    <div class="member-card">
+    <div class="placeholder-icon">:material-account:</div>
+    <div class="member-info" markdown="1">
+    
+    **張大山**
+    <br>
+    __專題生__
+
+    **研究題目：** 實驗室網站維護與基礎文獻回顧
+    
+    </div>
+    </div>
+    </div>
+
+=== "合作者(Coperater)"
+
+    * **2025** - **李小華** (博士畢業) - 現於科技公司擔任量子演算法工程師
+    * **2024** - **陳小明** (碩士畢業) - 現於學術機構擔任研究助理
+
+=== "歷屆系友(Alumni)"
+
+    * **2025** - **李小華** (博士畢業) - 現於科技公司擔任量子演算法工程師
+    * **2024** - **陳小明** (碩士畢業) - 現於學術機構擔任研究助理
