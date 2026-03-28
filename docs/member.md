@@ -9,7 +9,7 @@ hide:
     <div class="team-grid pi-card">
     <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/prof.jpg" alt="Dr. Quantum">
+    <img src="../assets/images/member/prof.jpg" alt="Dr. Quantum">
     </div>
     <div class="member-info" markdown="1">
     
@@ -31,7 +31,7 @@ hide:
     <div class="team-grid">
     <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    <img src="../assets/images/member/postdoc.jpg" alt="王大明">
     </div>
     <div class="member-info" markdown="1">
     
@@ -48,7 +48,7 @@ hide:
     </div>
     <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/doc.jpg" alt="量子君">
+    <img src="../assets/images/member/doc.jpg" alt="量子君">
     </div>
     <div class="member-info" markdown="1">
     
@@ -65,7 +65,7 @@ hide:
     </div>
         <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    <img src="../assets/images/member/postdoc.jpg" alt="王大明">
     </div>
     <div class="member-info" markdown="1">
     
@@ -87,7 +87,7 @@ hide:
     <div class="team-grid">
     <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    <img src="../assets/images/member/postdoc.jpg" alt="王大明">
     </div>
     <div class="member-info" markdown="1">
     
@@ -104,7 +104,7 @@ hide:
     </div>
     <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/doc.jpg" alt="量子君">
+    <img src="../assets/images/member/doc.jpg" alt="量子君">
     </div>
     <div class="member-info" markdown="1">
     
@@ -121,7 +121,7 @@ hide:
     </div>
         <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    <img src="../assets/images/member/postdoc.jpg" alt="王大明">
     </div>
     <div class="member-info" markdown="1">
     
@@ -143,7 +143,7 @@ hide:
     <div class="team-grid">
     <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    <img src="../assets/images/member/postdoc.jpg" alt="王大明">
     </div>
     <div class="member-info" markdown="1">
     
@@ -160,7 +160,7 @@ hide:
     </div>
     <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/doc.jpg" alt="量子君">
+    <img src="../assets/images/member/doc.jpg" alt="量子君">
     </div>
     <div class="member-info" markdown="1">
     
@@ -177,7 +177,7 @@ hide:
     </div>
         <div class="member-card">
     <div class="member-photo">
-    <img src="/assets/images/member/postdoc.jpg" alt="王大明">
+    <img src="../assets/images/member/postdoc.jpg" alt="王大明">
     </div>
     <div class="member-info" markdown="1">
     

@@ -1,6 +1,7 @@
 site_name: Quantum Information & Computation Lab
 site_description: 專注於量子導引、量子資源理論與古典陰影的實驗室
 site_author: Lab Admin
+site_url: https://gyosei8329.github.io/Lab-website/
 
 theme:
   name: material
