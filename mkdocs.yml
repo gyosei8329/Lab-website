@@ -43,10 +43,10 @@ theme:
 extra:
   alternate:
     - name: 繁體中文
-      link: /
+      link: /Lab-website/
       lang: zh
     - name: English
-      link: /en/
+      link: /Lab-website/en/
       lang: en
 
 plugins:
