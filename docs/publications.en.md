@@ -4,10 +4,6 @@ hide:
   - navigation
 ---
 
-# Publications
-
----
-
 ## 2025
 
 - L. B. Vieira, **Huan-Yu Ku**, and C. Budroni. "Entanglement-breaking channels are a quantum memory resource." *Physical Review Research*, 7(4): 043281, 2025.

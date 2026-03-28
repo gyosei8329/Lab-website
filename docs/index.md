@@ -24,8 +24,8 @@ hide:
   box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 ">
   <h1 style="color: white; font-size: 3rem; margin-bottom: 1rem; font-weight: 800;">Quantum Information & Computation Lab</h1>
-  <p style="color: rgba(105, 105, 105, 0.9); font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem;">
-    探索量子物理的邊界。我們專注於量子導引、量子資源理論、古典陰影，以及新興光電材料元件的前沿應用。
+  <p style="color: rgba(151, 151, 151, 0.7); font-size: 1.2rem; max-width: 600px; margin: 0 auto 2rem;">
+    探索量子物理的邊界。我們專注於量子導引、量子資源理論的前沿應用。
   </p>
   
   <a href="research/" class="md-button md-button--primary" style="background-color: white; color: #43baff; font-weight: bold; border: none; margin: 0.5rem;">探索研究領域</a>

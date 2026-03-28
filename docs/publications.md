@@ -4,12 +4,6 @@ hide:
   - navigation
 ---
 
-# 論文發表
-
-以下收錄本實驗室核心成員與合作者歷年於量子資訊領域發表之重要學術文獻。
-
----
-
 ## 2025
 
 - L. B. Vieira, **Huan-Yu Ku**, and C. Budroni. "Entanglement-breaking channels are a quantum memory resource." *Physical Review Research*, 7(4): 043281, 2025.
