@@ -1,10 +1,8 @@
 ---
-title: 目前成員
+title: 團隊成員
 hide:
   - navigation
 ---
-
-# 團隊成員
 
 === "指導教授 (Profeser)"
 

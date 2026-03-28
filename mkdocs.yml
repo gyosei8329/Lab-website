@@ -70,9 +70,7 @@ plugins:
 
 nav:
   - 首頁: index.md
-  - 團隊成員:
-      - 現任成員: member.md
-      - 歷屆系友: alumni.md
+  - 團隊成員: member.md
   - 研究介紹: research.md
   - 論文發表: publications.md
   - 聯絡我們: contact.md
