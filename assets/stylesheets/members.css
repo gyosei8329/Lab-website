@@ -1,0 +1,119 @@
+.tabbed-set {
+  margin-top: 2rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 600px), 1fr)); 
+  gap: 1.5rem; 
+  margin: 1.5rem 0;
+}
+
+.team-grid .member-card {
+  background-color: var(--md-card-background-color, #fff);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start; 
+  gap: 1.5rem; 
+  text-align: left; 
+}
+
+[data-md-color-scheme="slate"] .team-grid .member-card {
+  background-color: var(--md-default-bg-color);
+}
+
+.team-grid .member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+  border-color: var(--md-typeset-a-color);
+}
+
+.team-grid.pi-card .member-card {
+  grid-column: 1 / -1; 
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  background-color: var(--md-code-bg-color); 
+}
+
+/* === 圖片設定：限制寬度，高度自然延伸 === */
+.team-grid .member-photo {
+  width: clamp(90px, 20%, 140px); /* 限制寬度 */
+  height: auto; /* 高度不限制 */
+  flex-shrink: 0; 
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.team-grid .member-photo img {
+  width: 100%;
+  height: auto; /* 保持原本比例 */
+  display: block; 
+}
+
+/* PI 卡片的圖片寬度大一點 */
+.team-grid.pi-card .member-photo {
+  width: clamp(150px, 30%, 220px); 
+  height: auto;
+}
+
+/* 專題生/無照片圖示的替補樣式維持固定大小，確保不變形 */
+.team-grid .placeholder-icon {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5rem;
+  color: var(--md-typeset-color);
+  background-color: rgba(0,0,0,0.03);
+  border-radius: 8px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+[data-md-color-scheme="slate"] .team-grid .placeholder-icon {
+  background-color: rgba(255,255,255,0.05);
+}
+
+/* === 文字設定：全面縮小 === */
+.team-grid .member-info {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.9rem; /* 基礎文字縮小 (原本通常是 1rem) */
+}
+
+.team-grid .member-info > p:first-child {
+  margin-top: 0;
+}
+
+.team-grid strong {
+  font-size: 1rem; /* 粗體標題縮小 (原本是 1.1rem) */
+}
+
+.team-grid .member-resources {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  font-size: 0.8rem; /* 底部聯絡資訊縮小 (原本是 0.9rem) */
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* 手機版適應 */
+@media screen and (max-width: 480px) {
+  .team-grid .member-card {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+  }
+  .team-grid .member-resources {
+    justify-content: center;
+  }
+}

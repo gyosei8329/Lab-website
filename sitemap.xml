@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/"/>
+    </url>
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/contact/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/contact/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/contact/"/>
+    </url>
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/member/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/member/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/member/"/>
+    </url>
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/publications/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/publications/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/publications/"/>
+    </url>
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/research/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/research/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/research/"/>
+    </url>
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/en/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/"/>
+    </url>
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/en/contact/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/contact/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/contact/"/>
+    </url>
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/en/member/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/member/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/member/"/>
+    </url>
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/en/publications/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/publications/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/publications/"/>
+    </url>
+    <url>
+        <loc>https://gyosei8329.github.io/Lab-website/en/research/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://gyosei8329.github.io/Lab-website/en/research/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://gyosei8329.github.io/Lab-website/research/"/>
+    </url>
+</urlset>
